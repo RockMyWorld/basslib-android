@@ -1,4 +1,4 @@
-package com.un4seen.bass;
+package com.rockmyrun.basslib_android;
 
 import java.nio.ByteBuffer;
 

@@ -14,7 +14,7 @@
  * Requires BASS 2.4 (available at http://www.un4seen.com)
 ===========================================================================*/
 
-package com.un4seen.bass;
+package com.rockmyrun.basslib_android;
 
 public class BASS_FX
 {
