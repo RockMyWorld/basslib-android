@@ -4,7 +4,7 @@
 
 	See the BASS.CHM file for more detailed documentation
 */
-package com.rockmyrun.bass;
+package com.un4seen.bass;
 
 import android.content.res.AssetManager;
 
