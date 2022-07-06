@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/artifact.iml" filepath="$PROJECT_DIR$/artifact.iml" />
-      <module fileurl="file://$PROJECT_DIR$/basslib-android/basslib-android.iml" filepath="$PROJECT_DIR$/basslib-android/basslib-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/artifact.iml" filepath="$PROJECT_DIR$/.idea/modules/artifact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basslib-android/artifact.basslib-android.iml" filepath="$PROJECT_DIR$/.idea/modules/basslib-android/artifact.basslib-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basslib-android/artifact.basslib-android.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/basslib-android/artifact.basslib-android.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basslib-android/artifact.basslib-android.main.iml" filepath="$PROJECT_DIR$/.idea/modules/basslib-android/artifact.basslib-android.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basslib-android/artifact.basslib-android.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/basslib-android/artifact.basslib-android.unitTest.iml" />
     </modules>
   </component>
 </project>
