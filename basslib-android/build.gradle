@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 group='com.github.rockmyworld'
 
 android {
@@ -34,4 +35,17 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.rockmyworld'
+                artifactId = 'basslib-android'
+                version = android.defaultConfig.versionName
+            }
+        }
+    }
 }
